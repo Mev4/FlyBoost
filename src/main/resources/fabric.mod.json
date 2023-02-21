@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "flyboost",
+  "version": "${version}",
+  "name": "FlyBoostMod",
+  "description": "Fly Boost",
+  "authors": [
+    "Mev4"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Mev4",
+    "sources": "https://github.com/Mev4/FlyBoostMod"
+  },
+  "license": "MIT",
+  "icon": "assets/FlyBoost/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.mev4.flyboost.FlyBoost"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": ">=1.17.1"
+  }
+}
